@@ -1,0 +1,187 @@
+.h-et {
+	color: #808080;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+	font-weight: 400;
+}
+
+h1.title-black {
+	font-size: 46px;
+	text-align: center;
+	color: #3d3d3d;
+	margin-bottom: 10px;
+}
+
+h2.subtitle-black {
+	font-size: 22px;
+	text-align: center;
+	color: #3d3d3d;
+}
+
+h1.title-white {
+	font-size: 46px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+h2.subtitle-white {
+	font-size: 22px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.bullet-arrow {
+	margin-bottom: 35px;
+	> li {
+		padding-left: 23px !important;
+		background: url('../img/content/typo/typo-arrow.png') no-repeat left center;
+		font-weight: 300;
+		color: #888888;
+		line-height: 33px;
+		a {
+			font-weight: 300;
+			color: #888888;
+		}
+	}
+}
+
+.bullet-arrow-white {
+	margin-bottom: 35px;
+	> li {
+		padding-left: 23px !important;
+		background: url('../img/content/typo/typo-arrow-white.png') no-repeat left center;
+		font-weight: 300;
+		color: #fff;
+		line-height: 33px;
+		a {
+			font-weight: 300;
+			color: #fff;
+		}
+	}
+}
+
+.bullet-ul {
+	margin-bottom: 35px;
+	> li {
+		padding-left: 23px !important;
+		background: url('../img/content/typo/list-style-disc.png') no-repeat left center;
+		font-weight: 300;
+		color: #888888;
+		line-height: 33px;
+		a {
+			font-weight: 300;
+			color: #888888;
+		}
+	}
+}
+
+ul.bif {
+	margin: 20px 0 10px 0;
+	&:after {
+		content: '.';
+		visibility: hidden;
+		clear: both;
+	}
+	li {
+		line-height: 20px;
+		padding-left: 25px;
+		background: url('../img/content/features/features-bif.png') no-repeat left 0px;
+		margin-bottom: 10px;
+		font-weight: 300;
+		font-family: 'Roboto';
+		span {
+			font-weight: 400;
+			font-family: 'Roboto';
+		}
+	}
+}
+
+.bullet-number {
+	list-style-type:decimal;
+	margin-left: 25px;
+	margin-bottom: 35px;
+	> li {
+		font-weight: 300;
+		color: #888888;
+		line-height: 33px;
+		a {
+			font-weight: 300;
+			color: #888888;
+		}
+	}
+}
+
+.bullet-roman {
+	list-style-type: upper-roman;
+	margin-left: 25px;
+	margin-bottom: 35px;
+	> li {
+		font-weight: 300;
+		color: #888888;
+		line-height: 33px;
+		a {
+			font-weight: 300;
+			color: #888888;
+		}
+	}
+}
+
+p {
+	font-size: 14px;
+	color: #838383;
+	font-weight: 300;
+	line-height: 21px;
+}
+
+.dropcap {
+	span.dropcap {
+		width: 36px;
+		height: 36px;
+		font-size: 22px;
+		border: 1px solid #000;
+		float: left;
+		margin-right: 10px;
+		text-align: center;
+		line-height: 34px;
+		text-transform: uppercase;
+		font-family: 'Roboto';
+		font-weight: 100;
+	}
+	&.dropcap-bdr {
+		span.dropcap {
+			color: #3498db;
+			border: 1px solid #3498db;
+			border-radius: 3px;
+		}
+	}
+	&.dropcap-bdr-50 {
+		span.dropcap {
+			color: #e47dab;
+			border: 1px solid #e47dab;
+			border-radius: 50%;
+		}
+	}
+	&.dropcap-no-bdr {
+		span.dropcap {
+			color: #2ecc71;
+			border: 1px solid #2ecc71;
+		}
+	}
+}
+
+.quote-02 {
+	background: #3498db;
+	border: none;
+	p {
+		color: #fff;
+		background: url('../img/content/typo/quote-02.png') no-repeat 8% 25%;
+	}
+}
+.quote-03 {
+	.bd(@bd-h:1px;@type-bd:solid;@color-bd:#3498db;);
+	p {
+		background: url('../img/content/typo/quote-01.png') no-repeat 8% 25%;
+	}
+}

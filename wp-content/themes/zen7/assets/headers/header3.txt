@@ -1,0 +1,1488 @@
+<div class="white-half-menu">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="logo">
+						<a href="index.html">
+							<img src="assets/img/header/logo.png" alt="logo">
+						</a>
+					</div>
+					<div class="info-contact-header">
+						<ul>
+							<li class="place">
+								129, Brod Way, Los Santos
+							</li>
+							<li class="phone">
+								+45 558 597
+							</li>
+						</ul>
+					</div>
+					<nav class="phone-menu">
+					<ul>
+						<li>
+							<a>Home</a>
+							<ul>
+								<li>
+									<a href="index.html">
+										Home
+									</a>
+									<ul>
+										<li>
+											<a href="home-02.html">
+												Home 02
+											</a>
+										</li>
+										<li>
+											<a href="home-03.html">
+												Home 03
+											</a>
+										</li>
+										<li>
+											<a href="header-01.html">
+												Header - 01
+											</a>
+										</li>
+										<li>
+											<a href="header-02.html">
+												Header - 02
+											</a>
+										</li>
+										<li>
+											<a href="header-03.html">
+												Header - 03
+											</a>
+										</li>
+										<li>
+											<a href="header-04.html">
+												Header - 04
+											</a>
+										</li>
+										<li>
+											<a href="header-05.html">
+												Header - 05
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="elements.html">
+										Elements
+									</a>
+									<ul>
+												<li>
+													<a href="elements-alerts.html">
+														Alerts
+													</a>
+												</li>
+												<li>
+													<a href="elements-buttons.html">
+														Buttons
+													</a>
+												</li>
+												<li>
+													<a href="elements-call-to-action.html">
+														Call to action
+													</a>
+												</li>
+												<li>
+													<a href="elements-clients-carousel.html">
+														Clients Carusel
+													</a>
+												</li>
+												<li>
+													<a href="elements-tabs.html">
+														Tabs
+													</a>
+												</li>
+												<li>
+													<a href="elements-progress-bar.html">
+														Progress Bars
+													</a>
+												</li>
+												<li>
+													<a href="elements-progress-bar-02.html">
+														Progress Bars 2
+													</a>
+												</li>
+												<li>
+													<a href="elements-boxes.html">
+														Boxes
+													</a>
+												</li>
+												<li>
+													<a href="elements-accordion.html">
+														Accordion
+													</a>
+												</li>
+												<li>
+													<a href="elements-social-icons.html">
+														Social Icons
+													</a>
+												</li>
+												<li>
+													<a href="elements-icons.html">
+														Icons
+													</a>
+												</li>
+												<li>
+													<a href="elements-testimonials.html">
+														Testimonials
+													</a>
+												</li>
+												<li>
+													<a href="elements-sliders.html">
+														Sliders
+													</a>
+												</li>
+												<li>
+													<a href="elements-tables.html">
+														Tables
+													</a>
+												</li>
+												<li>
+													<a href="elements-thumbnails.html">
+														Thumbnails
+													</a>
+												</li>
+												<li>
+													<a href="elements-labels.html">
+														Labels
+													</a>
+												</li>
+												<li>
+													<a href="elements-modal.html">
+														Modal
+													</a>
+												</li>
+												<li>
+													<a href="elements-input-groups.html">
+														Input Groups
+													</a>
+												</li>
+												<li>
+													<a href="elements-dropdowns.html">
+														Dropdowns
+													</a>
+												</li>
+												<li>
+													<a href="elements-breadcrumbs.html">
+														Breadcrumbs
+													</a>
+												</li>
+												<li>
+													<a href="elements-pagination.html">
+														Pagination
+													</a>
+												</li>
+												<li>
+													<a href="elements-tooltips.html">
+														Tooltips
+													</a>
+												</li>
+												<li>
+													<a href="elements-popovers.html">
+														Popovers
+													</a>
+												</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">
+										Pages
+									</a>
+									<ul>
+										<li>
+											<a href="index.html">
+												Home
+											</a>
+										</li>
+										<li>
+											<a href="404.html">
+												404
+											</a>
+											<ul>
+												<li>
+													<a href="404.html">
+														404 error
+													</a>
+												</li>
+												<li>
+													<a href="404-big.html">
+														404 error Big
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="about-us.html">
+												About Us
+											</a>
+											<ul>
+												<li>
+													<a href="about-us.html">
+														About Us - 01
+													</a>
+												</li>
+												<li>
+													<a href="about-us-02.html">
+														About Us - 02
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="blog-page.html">
+												Blog
+											</a>
+											<ul>
+												<li>
+													<a href="blog-page.html">
+														Blog page - 01
+													</a>
+												</li>
+												<li>
+													<a href="blog-page-style-02.html">
+														Blog page - 02
+													</a>
+												</li>
+												<li>
+													<a href="blog-page-style-03.html">
+														Blog page - 03
+													</a>
+												</li>
+												<li>
+													<a href="blog-page-masonry.html">
+														Blog masonry - 01
+													</a>
+												</li>
+												<li>
+													<a href="blog-page-masonry-with-sidebar.html">
+														Blog masonry - 02
+													</a>
+												</li>
+												<li>
+													<a href="blog-page-without-sidebar.html">
+														Blog without - 03
+													</a>
+												</li>
+												<li>
+													<a href="blog-single-page-without-sidebar.html">
+														Blog single - 01
+													</a>
+												</li>
+												<li>
+													<a href="blog-single-page-with-sidebar.html">
+														Blog single - 02
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="contact.html">
+												Contact
+											</a>
+											<ul>
+												<li>
+													<a href="contact.html">
+														Contact - 01
+													</a>
+												</li>
+												<li>
+													<a href="contact-02.html">
+														Contact - 02
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="elements.html">
+												Elements
+											</a>
+											<ul>
+												<li>
+													<a href="elements-alerts.html">
+														Alerts
+													</a>
+												</li>
+												<li>
+													<a href="elements-buttons.html">
+														Buttons
+													</a>
+												</li>
+												<li>
+													<a href="elements-call-to-action.html">
+														Call to action
+													</a>
+												</li>
+												<li>
+													<a href="elements-clients-carousel.html">
+														Clients Carusel
+													</a>
+												</li>
+												<li>
+													<a href="elements-tabs.html">
+														Tabs
+													</a>
+												</li>
+												<li>
+													<a href="elements-progress-bar.html">
+														Progress Bars
+													</a>
+												</li>
+												<li>
+													<a href="elements-progress-bar-02.html">
+														Progress Bars 2
+													</a>
+												</li>
+												<li>
+													<a href="elements-boxes.html">
+														Boxes
+													</a>
+												</li>
+												<li>
+													<a href="elements-accordion.html">
+														Accordion
+													</a>
+												</li>
+												<li>
+													<a href="elements-social-icons.html">
+														Social Icons
+													</a>
+												</li>
+												<li>
+													<a href="elements-icons.html">
+														Icons
+													</a>
+												</li>
+												<li>
+													<a href="elements-testimonials.html">
+														Testimonials
+													</a>
+												</li>
+												<li>
+													<a href="elements-sliders.html">
+														Sliders
+													</a>
+												</li>
+												<li>
+													<a href="elements-tables.html">
+														Tables
+													</a>
+												</li>
+												<li>
+													<a href="elements-thumbnails.html">
+														Thumbnails
+													</a>
+												</li>
+												<li>
+													<a href="elements-labels.html">
+														Labels
+													</a>
+												</li>
+												<li>
+													<a href="elements-modal.html">
+														Modal
+													</a>
+												</li>
+												<li>
+													<a href="elements-input-groups.html">
+														Input Groups
+													</a>
+												</li>
+												<li>
+													<a href="elements-dropdowns.html">
+														Dropdowns
+													</a>
+												</li>
+												<li>
+													<a href="elements-breadcrumbs.html">
+														Breadcrumbs
+													</a>
+												</li>
+												<li>
+													<a href="elements-pagination.html">
+														Pagination
+													</a>
+												</li>
+												<li>
+													<a href="elements-tooltips.html">
+														Tooltips
+													</a>
+												</li>
+												<li>
+													<a href="elements-popovers.html">
+														Popovers
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="faq.html">
+												F.A.Q.
+											</a>
+											<ul>
+												<li>
+													<a href="faq.html">
+														F.A.Q. - 01
+													</a>
+												</li>
+												<li>
+													<a href="faq-with-sidebar.html">
+														F.A.Q. - 02
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="our-team.html">
+												Our team
+											</a>
+											<ul>
+												<li>
+													<a href="our-team.html">
+														Our team - 01
+													</a>
+												</li>
+												<li>
+													<a href="our-team-02.html">
+														Our team - 02
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="portfolio-style-01.html">
+												Portfolio
+											</a>
+											<ul>
+												<li>
+													<a href="portfolio-style-01.html">
+														Portfolio - 01
+													</a>
+												</li>
+												<li>
+													<a href="portfolio-style-02.html">
+														Portfolio - 02
+													</a>
+												</li>
+												<li>
+													<a href="portfolio-without-sidebar.html">
+														Portfolio - 03
+													</a>
+												</li>
+												<li>
+													<a href="portfolio-single-without-sidebar-01.html">
+														Portfolio single - 01
+													</a>
+												</li>
+												<li>
+													<a href="portfolio-single-without-sidebar-02.html">
+														Portfolio single - 02
+													</a>
+												</li>
+												<li>
+													<a href="portfolio-single-without-sidebar-03.html">
+														Portfolio single - 03
+													</a>
+												</li>
+												<li>
+													<a href="portfolio-single-without-sidebar-04.html">
+														Portfolio single - 04
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="service.html">
+												Service
+											</a>
+										</li>
+										<li>
+											<a href="typo.html">
+												Typography
+											</a>
+										</li>
+										<li>
+											<a href="shop-cart.html">
+												Shop
+											</a>
+											<ul>
+												<li>
+													<a href="shop-without-sidebar-02.html">
+														Without Sidebar 02
+													</a>
+												</li>
+												<li>
+													<a href="shop-with-sidebar.html">
+														With Sidebar
+													</a>
+												</li>
+												<li>
+													<a href="shop-without-sidebar.html">
+														Shop 3 columns
+													</a>
+												</li>
+												<li>
+													<a href="shop-without-sidebar-col-4.html">
+														Shop 4 columns
+													</a>
+												</li>
+												<li>
+													<a href="shop-without-sidebar-col-6.html">
+														Shop 6 columns
+													</a>
+												</li>
+												<li>
+													<a href="shop-cart.html">
+														Cart
+													</a>
+												</li>
+												<li>
+													<a href="shop-checkout.html">
+														Checkout
+													</a>
+												</li>
+												<li>
+													<a href="shop-checkout-alerts.html">
+														Checkout alerts
+													</a>
+												</li>
+												<li>
+													<a href="shop-my-account.html">
+														My Account
+													</a>
+												</li>
+												<li>
+													<a href="shop-single-product.html">
+														Single Product
+													</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">
+										Portfolio
+									</a>
+									<ul>
+										<li>
+											<a href="portfolio-style-01.html">
+												Portfolio - 01
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-style-02.html">
+												Portfolio - 02
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-without-sidebar.html">
+												Portfolio - 03
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-single-without-sidebar-01.html">
+												Portfolio single - 01
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-single-without-sidebar-02.html">
+												Portfolio single - 02
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-single-without-sidebar-03.html">
+												Portfolio single - 03
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-single-without-sidebar-04.html">
+												Portfolio single - 04
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">
+										Contact
+									</a>
+									<ul>
+										<li>
+											<a href="contact.html">
+												Contact - 01
+											</a>
+										</li>
+										<li>
+											<a href="contact-02.html">
+												Contact - 02
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="shop-cart.html">
+										Shop
+									</a>
+									<ul>
+										<li>
+											<a href="shop-without-sidebar-02.html">
+												Without Sidebar 02
+											</a>
+										</li>
+										<li>
+											<a href="shop-with-sidebar.html">
+												With Sidebar
+											</a>
+										</li>
+										<li>
+											<a href="shop-without-sidebar.html">
+												Shop 3 columns
+											</a>
+										</li>
+										<li>
+											<a href="shop-without-sidebar-col-4.html">
+												Shop 4 columns
+											</a>
+										</li>
+										<li>
+											<a href="shop-without-sidebar-col-6.html">
+												Shop 6 columns
+											</a>
+										</li>
+										<li>
+											<a href="shop-cart.html">
+												Cart
+											</a>
+										</li>
+										<li>
+											<a href="shop-checkout.html">
+												Checkout
+											</a>
+										</li>
+										<li>
+											<a href="shop-checkout-alerts.html">
+												Checkout alerts
+											</a>
+										</li>
+										<li>
+											<a href="shop-my-account.html">
+												My Account
+											</a>
+										</li>
+										<li>
+											<a href="shop-single-product.html">
+												Single Product
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="col-md-12">
+				<nav class="menu clearfix">
+					<ul>
+						<li class="menu-item-icon home selected">
+							<a href="index.html">
+								<h1>home</h1>
+								<h2>start here</h2>
+							</a>
+							<ul>
+								<li>
+									<a href="home-02.html">
+										Home - 02
+									</a>
+								</li>
+								<li>
+									<a href="home-03.html">
+										Home - 03
+									</a>
+								</li>
+								<li>
+									<a href="header-01.html">
+										Header - 01
+									</a>
+								</li>
+								<li>
+									<a href="header-02.html">
+										Header - 02
+									</a>
+								</li>
+								<li>
+									<a href="header-03.html">
+										Header - 03
+									</a>
+								</li>
+								<li>
+									<a href="header-04.html">
+										Header - 04
+									</a>
+								</li>
+								<li>
+									<a href="header-05.html">
+										Header - 05
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-item-icon elements">
+							<a href="elements.html">
+								<h1>elements</h1>
+								<h2>for website</h2>
+							</a>
+							<ul class="big-sub-menu">
+								<ul class="clearfix">
+									<li>
+										<ul>
+											<li>
+												<ul>
+													<li>
+														<a href="elements.html">
+															All Elements
+														</a>
+													</li>
+													<li>
+														<a href="elements-alerts.html">
+															Alerts
+														</a>
+													</li>
+													<li>
+														<a href="elements-buttons.html">
+															Buttons
+														</a>
+													</li>
+													<li>
+														<a href="elements-call-to-action.html">
+															Call to action
+														</a>
+													</li>
+													<li>
+														<a href="elements-clients-carousel.html">
+															Clients Carusel
+														</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<ul>
+											<li>
+												<ul>
+													<li>
+														<a href="elements-progress-bar.html">
+															Progress Bars
+														</a>
+													</li>
+													<li>
+														<a href="elements-boxes.html">
+															Boxes
+														</a>
+													</li>
+													<li>
+														<a href="elements-input-groups.html">
+															Input Groups
+														</a>
+													</li>
+													<li>
+														<a href="elements-dropdowns.html">
+															Dropdowns
+														</a>
+													</li>
+													<li>
+														<a href="elements-icons.html">
+															Icons
+														</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<ul>
+											<li>
+												<ul>
+													<li>
+														<a href="elements-accordion.html">
+															Accordion
+														</a>
+													</li>
+													<li>
+														<a href="elements-social-icons.html">
+															Social Icons
+														</a>
+													</li>
+													<li>
+														<a href="elements-breadcrumbs.html">
+															Breadcrumbs
+														</a>
+													</li>
+													<li>
+														<a href="elements-pagination.html">
+															Pagination
+														</a>
+													</li>
+													<li>
+														<a href="elements-testimonials.html">
+															Testimonials
+														</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<ul>
+											<li>
+												<ul>
+													<li>
+														<a href="elements-sliders.html">
+															Sliders
+														</a>
+													</li>
+													<li>
+														<a href="elements-tables.html">
+															Tables
+														</a>
+													</li>
+													<li>
+														<a href="elements-tooltips.html">
+															Tooltips
+														</a>
+													</li>
+													<li>
+														<a href="elements-popovers.html">
+															Popovers
+														</a>
+													</li>
+													<li>
+														<a href="elements-tabs.html">
+															Tabs
+														</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<ul>
+											<li>
+												<ul>
+													<li>
+														<a href="elements-progress-bar-02.html">
+															Progress Bars 2
+														</a>
+													</li>
+													<li>
+														<a href="elements-thumbnails.html">
+															Thumbnails
+														</a>
+													</li>
+													<li>
+														<a href="elements-labels.html">
+															Labels
+														</a>
+													</li>
+													<li>
+														<a href="elements-modal.html">
+															Modal
+														</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</ul>
+						</li>
+						<li class="menu-item-icon pages">
+							<a href="404-big.html">
+								<h1>pages</h1>
+								<h2>all pages</h2>
+							</a>
+							<ul class="big-sub-menu">
+								<ul class="clearfix">
+									<li>
+										<ul>
+											<li>
+												<a>
+													Shortcodes
+												</a>
+												<ul>
+													<li>
+														<a href="elements.html">
+															All elements
+														</a>
+													</li>
+													<li>
+														<a href="elements-alerts.html">
+															Alerts
+														</a>
+													</li>
+													<li>
+														<a href="elements-buttons.html">
+															Buttons
+														</a>
+													</li>
+													<li>
+														<a href="elements-call-to-action.html">
+															Call to action
+														</a>
+													</li>
+													<li>
+														<a href="elements-clients-carousel.html">
+															Clients Carusel
+														</a>
+													</li>
+													<li>
+														<a href="elements-tabs.html">
+															Tabs
+														</a>
+													</li>
+													<li>
+														<a href="elements-progress-bar.html">
+															Progress Bars
+														</a>
+													</li>
+													<li>
+														<a href="elements-progress-bar-02.html">
+															Progress Bars 2
+														</a>
+													</li>
+
+													<li>
+														<a href="elements-boxes.html">
+															Boxes
+														</a>
+													</li>
+													<li>
+														<a href="elements-accordion.html">
+															Accordion
+														</a>
+													</li>
+													<li>
+														<a href="elements-social-icons.html">
+															Social Icons
+														</a>
+													</li>
+													<li>
+														<a href="elements-icons.html">
+															Icons
+														</a>
+													</li>
+													<li>
+														<a href="elements-testimonials.html">
+															Testimonials
+														</a>
+													</li>
+													<li>
+														<a href="elements-sliders.html">
+															Sliders
+														</a>
+													</li>
+													<li>
+														<a href="elements-tables.html">
+															Tables
+														</a>
+													</li>
+													<li>
+														<a href="elements-thumbnails.html">
+															Thumbnails
+														</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<ul>
+											<li>
+												<ul>
+													<li>
+														<a href="elements-labels.html">
+															Labels
+														</a>
+													</li>
+													<li>
+														<a href="elements-modal.html">
+															Modal
+														</a>
+													</li>
+													<li>
+														<a href="elements-input-groups.html">
+															Input Groups
+														</a>
+													</li>
+													<li>
+														<a href="elements-dropdowns.html">
+															Dropdowns
+														</a>
+													</li>
+													<li>
+														<a href="elements-breadcrumbs.html">
+															Breadcrumbs
+														</a>
+													</li>
+													<li>
+														<a href="elements-pagination.html">
+															Pagination
+														</a>
+													</li>
+													<li>
+														<a href="elements-tooltips.html">
+															Tooltips
+														</a>
+													</li>
+													<li>
+														<a href="elements-popovers.html">
+															Popovers
+														</a>
+													</li>
+												</ul>
+												<a>
+													Other Pages
+												</a>
+												<ul>
+													<li>
+														<a href="service.html">
+															Service
+														</a>
+													</li>
+													<li>
+														<a href="typo.html">
+															Typography
+														</a>
+													</li>
+												</ul>
+												<a>
+													Shop Pages
+												</a>
+												<ul>
+													<li>
+														<a href="shop-without-sidebar-02.html">
+															Shop Style 01
+														</a>
+													</li>
+													<li>
+														<a href="shop-with-sidebar.html">
+															Shop Style 02
+														</a>
+													</li>
+													<li>
+														<a href="shop-without-sidebar.html">
+															Shop 3 columns
+														</a>
+													</li>
+													<li>
+														<a href="shop-without-sidebar-col-4.html">
+															Shop 4 columns
+														</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<ul>
+											<li>
+												<ul>
+													<li>
+														<a href="shop-without-sidebar-col-6.html">
+															Shop 6 columns
+														</a>
+													</li>
+													<li>
+														<a href="shop-cart.html">
+															Cart
+														</a>
+													</li>
+													<li>
+														<a href="shop-checkout.html">
+															Checkout
+														</a>
+													</li>
+													<li>
+														<a href="shop-checkout-alerts.html">
+															Checkout alerts
+														</a>
+													</li>
+													<li>
+														<a href="shop-my-account.html">
+															My Account
+														</a>
+													</li>
+													<li>
+														<a href="shop-single-product.html">
+															Single Product
+														</a>
+													</li>
+												</ul>
+												<a>
+													Home Pages
+												</a>
+												<ul>
+													<li>
+														<a href="index.html">
+															Home style 1
+														</a>
+													</li>
+													<li>
+														<a href="home-02.html">
+															Home style 2
+														</a>
+													</li>
+													<li>
+														<a href="home-03.html">
+															Home style 3
+														</a>
+													</li>
+												</ul>
+												<a>
+													Header Styles
+												</a>
+												<ul>
+													<li>
+														<a href="header-01.html">
+															Header style 1
+														</a>
+													</li>
+													<li>
+														<a href="header-02.html">
+															Header style 2
+														</a>
+													</li>
+													<li>
+														<a href="header-03.html">
+															Header style 3
+														</a>
+													</li>
+													<li>
+														<a href="header-04.html">
+															Header style 4
+														</a>
+													</li>
+													<li>
+														<a href="header-05.html">
+															Header style 5
+														</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<ul>
+											<li>
+												<a>
+													Our team
+												</a>
+												<ul>
+													<li>
+														<a href="our-team.html">
+															Our team 1
+														</a>
+													</li>
+													<li>
+														<a href="our-team-02.html">
+															Our team 2
+														</a>
+													</li>
+												</ul>
+												<a>
+													404 error
+												</a>
+												<ul>
+													<li>
+														<a href="404.html">
+															404 error page 1
+														</a>
+													</li>
+													<li>
+														<a href="404-big.html">
+															404 error page 2
+														</a>
+													</li>
+												</ul>
+												<a>
+													Portfolio Pages
+												</a>
+												<ul>
+													<li>
+														<a href="portfolio-style-01.html">
+															Portfolio style 1
+														</a>
+													</li>
+													<li>
+														<a href="portfolio-style-02.html">
+															Portfolio style 2
+														</a>
+													</li>
+													<li>
+														<a href="portfolio-without-sidebar.html">
+															Portfolio style 3
+														</a>
+													</li>
+													<li>
+														<a href="portfolio-single-without-sidebar-01.html">
+															Portfolio single 1
+														</a>
+													</li>
+													<li>
+														<a href="portfolio-single-without-sidebar-02.html">
+															Portfolio single 2
+														</a>
+													</li>
+													<li>
+														<a href="portfolio-single-without-sidebar-03.html">
+															Portfolio single 3
+														</a>
+													</li>
+													<li>
+														<a href="portfolio-single-without-sidebar-04.html">
+															Portfolio single 4
+														</a>
+													</li>
+												</ul>
+												<a>
+													Blog Pages
+												</a>
+												<ul>
+													<li>
+														<a href="blog-page.html">
+															Blog page style 1
+														</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<ul>
+											<li>
+												<ul>
+													<li>
+														<a href="blog-page-style-02.html">
+															Blog page style 2
+														</a>
+													</li>
+													<li>
+														<a href="blog-page-style-03.html">
+															Blog page style 3
+														</a>
+													</li>
+													<li>
+														<a href="blog-page-without-sidebar.html">
+															Blog page style 4
+														</a>
+													</li>
+													<li>
+														<a href="blog-single-page-without-sidebar.html">
+															Blog single 1
+														</a>
+													</li>
+													<li>
+														<a href="blog-single-page-with-sidebar.html">
+															Blog single 2
+														</a>
+													</li>
+													<li>
+														<a href="blog-page-masonry.html">
+															Blog masonry 1
+														</a>
+													</li>
+													<li>
+														<a href="blog-page-masonry-with-sidebar.html">
+															Blog masonry 2
+														</a>
+													</li>
+												</ul>
+												<a>
+													About Us
+												</a>
+												<ul>
+													<li>
+														<a href="about-us.html">
+															About Us page 1
+														</a>
+													</li>
+													<li>
+														<a href="about-us-02.html">
+															About Us page 2
+														</a>
+													</li>
+												</ul>
+												<a>
+													F.A.Q.
+												</a>
+												<ul>
+													<li>
+														<a href="faq.html">
+															F.A.Q. 1
+														</a>
+													</li>
+													<li>
+														<a href="faq-with-sidebar.html">
+															F.A.Q. 2
+														</a>
+													</li>
+												</ul>
+												<a>
+													Contact Pages
+												</a>
+												<ul>
+													<li>
+														<a href="contact.html">
+															Contact 1
+														</a>
+													</li>
+													<li>
+														<a href="contact-02.html">
+															Contact 2
+														</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</ul>
+						</li>
+						<li class="menu-item-icon portfolio">
+							<a href="portfolio-style-01.html">
+								<h1>portfolio</h1>
+								<h2>our work</h2>
+							</a>
+							<ul>
+										<li>
+											<a href="portfolio-style-01.html">
+												Portfolio - 01
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-style-02.html">
+												Portfolio - 02
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-without-sidebar.html">
+												Portfolio - 03
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-single-without-sidebar-01.html">
+												Portfolio single - 01
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-single-without-sidebar-02.html">
+												Portfolio single - 02
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-single-without-sidebar-03.html">
+												Portfolio single - 03
+											</a>
+										</li>
+										<li>
+											<a href="portfolio-single-without-sidebar-04.html">
+												Portfolio single - 04
+											</a>
+										</li>
+									</ul>
+						</li>
+						<li class="menu-item-icon contact">
+							<a href="contact.html">
+								<h1>contact</h1>
+								<h2>keep in touch</h2>
+							</a>
+							<ul>
+								<li>
+									<a href="contact.html">
+										Contact - 01
+									</a>
+								</li>
+								<li>
+									<a href="contact-02.html">
+										Contact - 02
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-item-icon shop">
+							<a href="shop-cart.html">
+								<h1>Shop</h1>
+								<h2>Super products</h2>
+							</a>
+							<ul>
+								<li>
+									<a href="shop-without-sidebar-02.html">
+										Shop Style 01
+									</a>
+								</li>
+								<li>
+									<a href="shop-with-sidebar.html">
+										Shop Style 02
+									</a>
+								</li>
+								<li>
+									<a href="shop-without-sidebar.html">
+										Shop 3 columns
+									</a>
+								</li>
+								<li>
+									<a href="shop-without-sidebar-col-4.html">
+										Shop 4 columns
+									</a>
+								</li>
+								<li>
+									<a href="shop-without-sidebar-col-6.html">
+										Shop 6 columns
+									</a>
+								</li>
+								<li>
+									<a href="shop-cart.html">
+										Cart
+									</a>
+								</li>
+								<li>
+									<a href="shop-checkout.html">
+										Checkout
+									</a>
+								</li>
+								<li>
+									<a href="shop-checkout-alerts.html">
+										Checkout alerts
+									</a>
+								</li>
+								<li>
+									<a href="shop-my-account.html">
+										My Account
+									</a>
+								</li>
+								<li>
+									<a href="shop-single-product.html">
+										Single Product
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+				<form action="#" method="post" class="search-header">
+					<input type="text" class="form-control" placeholder="Search....">
+				</form>
+				<nav class="social">
+					<ul>
+						<li><a href="#" class="toptip g-plus" original-title="Google+"></a></li>
+						<li><a href="#" class="toptip facebook" original-title="Facebook"></a></li>
+						<li><a href="#" class="toptip pinterest" original-title="Pinterest"></a></li>
+						<li><a href="#" class="toptip twitter" original-title="Twitter"></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>

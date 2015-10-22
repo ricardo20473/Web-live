@@ -1,0 +1,53 @@
+.transition(@time:0.2s) {
+	-webkit-transition:all @time linear;
+	-moz-transition:all @time linear;
+	-o-transition:all @time linear;
+	-ms-transition:all @time linear;
+	transition:all @time linear;
+}
+
+.translateY(@translateY) {
+	-webkit-transform: translateY(@translateY);
+	-moz-transform: translateY(@translateY);
+	-o-transform: translateY(@translateY);
+	-ms-transform: translateY(@translateY);
+	transform: translateY(@translateY);
+}
+
+.translateX(@translateX) {
+	-webkit-transform: translateX(@translateX);
+	-moz-transform: translateX(@translateX);
+	-o-transform: translateX(@translateX);
+	-ms-transform: translateX(@translateX);
+	transform: translateX(@translateX);
+}
+
+.bxs(@h,@v,@b,@color) {
+	-webkit-box-shadow: @h @v @b @color;
+	-moz-box-shadow: @h @v @b @color;
+	box-shadow: @h @v @b @color;
+}
+
+.bd(@bd-h:1px;@type-bd:solid;@color-bd:#000;) {
+	border: @bd-h @type-bd @color-bd;
+}
+
+.scale(@scale-val) {
+	-webkit-transform: scale(@scale-val);
+	-moz-transform: scale(@scale-val);
+	-o-transform: scale(@scale-val);
+	-ms-transform: scale(@scale-val);
+	transform: scale(@scale-val);
+}
+
+.button(@w;@lh:45px;@bg:#3498db;@color:#fff;@color-bxs: none;@radius:3px;@h:4px;@v:4px;@b:0px;) {
+	background: @bg;
+	.bxs(@h,@v,@b,@color-bxs);
+	color: @color !important;
+	line-height: @lh;
+	border-radius: @radius;
+	display: block;
+	text-align: center;
+	width: @w;
+	height: @lh;
+}

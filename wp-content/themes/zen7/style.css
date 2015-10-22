@@ -1,0 +1,208 @@
+/*
+Theme Name: Zen7 – Premium Multi-Purpose Responsive Wordpress Theme
+Theme URI: http://demo.stylishthemes.co/zen7wp/
+Author: Stylish Themes
+Author URI: http://stylishthemes.co
+Description: Zen7 is one of the most modern business solutions. It was designed with an elegant, clean and minimalist style, focused on readability and content.
+Version: 1.2.1
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: zen7
+Tags: black, blue, white, two-columns, responsive-layout, threaded-comments, translation-ready, custom-menu
+*/
+
+@import url("assets/less/master.css");
+
+.woocommerce .create-account {
+    display: inline;
+}
+
+/***** GALLERY STYLE 1.0.0 ******/
+.gallery-icon {
+    position: relative;
+}
+
+.gallery-icon:hover img {
+    z-index: 0;
+}
+
+.gallery-icon:hover .hover-item {
+    opacity: 1;
+    z-index: 1;
+}
+
+.hover-item {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 0;
+    background: rgba(52, 152, 219, 0.8);
+    text-align: center;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.hover-item span {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 3px;
+    margin-top: 40%;
+    background: rgba(255, 255, 255, 0.8) url('assets/img/portfolio/zoom-icon.png') no-repeat center center;
+}
+
+@media (max-width: 768px) {
+    .hover-item {
+        display: none;
+    }
+}
+/****** END GALLERY STYLE ******/
+
+.zen_nav_link_right a {
+    float: right !important;
+    position: relative;
+    left: 17px;
+}
+
+ul.pagination {
+    display: inline;
+}
+
+.post-container .content-post-blog h1.title-post {
+    color: #3498db;
+    font-size: 32px;
+    font-weight: 100;
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+}
+
+.awaiting-moderation { font-style: italic; }
+
+.no_featured_image {padding-top:0 !important;}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+}
+
+.alignleft {
+    float: left;
+    margin: 10px 10px 15px 0px;
+}
+
+.alignright {
+    float: right;
+    margin: 10px 0px 15px 10px;
+}
+
+i, em {
+    font-style: italic;
+}
+
+.team-member-single figure img, .team-member-single-hover figure img {
+    height: auto;
+}
+
+.post-container-single img { height: auto; }
+
+/* Modification made for the blog arrows */
+.blog-post-separately .post-container { min-height: 400px; }
+
+/* Comments avatar */
+.comment .left-section img {
+    height: auto;
+}
+
+.custom-margin-left-right {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.custom-margin-top-bottom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Portfolio navigation */
+.portfolio_bottom_nav {
+    padding: 0px 15px;
+}
+.post-portfolio-container a.image-post img, .posts-list > ul > li .image-container img {
+    height: auto;
+}
+.gallery-icon img {
+    height: auto;
+}
+
+/* Wordpress classes */
+.wp-caption {}
+.wp-caption-text {}
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
+.map-full-w { position: fixed !important; }
+html.boxed .map-full-w { max-width: 1230px; }
+.jumbotron p, .jumbotron .container h1 { width: 100%; }
+
+/* tabs */
+.nav.left-tabs-content > li > a.tab-04 {
+    background: url('assets/img/content/elements/tabs-icon-04.png') no-repeat 12px center;
+}
+.nav.left-tabs-content > li > a.tab-05 {
+    background: url('assets/img/content/elements/tabs-icon-05.png') no-repeat 12px center;
+}
+.nav.left-tabs-content > li > a.tab-06 {
+    background: url('assets/img/content/elements/tabs-icon-06.png') no-repeat 12px center;
+}
+.nav.left-tabs-content > li > a.tab-07 {
+    background: url('assets/img/content/elements/tabs-icon-07.png') no-repeat 12px center;
+}
+.nav.left-tabs-content > li > a.tab-08 {
+    background: url('assets/img/content/elements/tabs-icon-08.png') no-repeat 12px center;
+}
+.nav.left-tabs-content > li > a.tab-09 {
+    background: url('assets/img/content/elements/tabs-icon-09.png') no-repeat 12px center;
+}
+.nav.left-tabs-content > li > a.tab-10 {
+    background: url('assets/img/content/elements/tabs-icon-10.png') no-repeat 12px center;
+}
+
+@media (max-width: 700px) {
+    .one-feature-slider {
+        display: none;
+    }
+}
+
+/* Headers fix v.1.2.1 */
+.woocommerce .shop_table.cart .product-thumbnail>a img {
+    height: auto;
+}
+
+.header.header-style-03.affix-menu .white-half-menu {
+    display: none;
+}
+
+.header-style-04.affix-menu > .container {
+    display: none;
+}
+
+.header.header-style-05.affix-menu .bdb-half-menu {
+    display: none;
+}

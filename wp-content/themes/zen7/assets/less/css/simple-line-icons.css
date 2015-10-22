@@ -1,0 +1,674 @@
+@font-face {
+	font-family: 'Simple-Line-Icons';
+	src:url('../../fonts/Simple-Line-Icons.eot');
+	src:url('../../fonts/Simple-Line-Icons.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/Simple-Line-Icons.woff') format('woff'),
+		url('../../fonts/Simple-Line-Icons.ttf') format('truetype'),
+		url('../../fonts/Simple-Line-Icons.svg#Simple-Line-Icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'Simple-Line-Icons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[data-icon]:hover {
+	color: #3498db;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-user-female, .icon-user-follow, .icon-user-following, .icon-user-unfollow, .icon-trophy, .icon-screen-smartphone, .icon-screen-desktop, .icon-plane, .icon-notebook, .icon-moustache, .icon-mouse, .icon-magnet, .icon-energy, .icon-emoticon-smile, .icon-disc, .icon-cursor-move, .icon-crop, .icon-credit-card, .icon-chemistry, .icon-user, .icon-speedometer, .icon-social-youtube, .icon-social-twitter, .icon-social-tumblr, .icon-social-facebook, .icon-social-dropbox, .icon-social-dribbble, .icon-shield, .icon-screen-tablet, .icon-magic-wand, .icon-hourglass, .icon-graduation, .icon-ghost, .icon-game-controller, .icon-fire, .icon-eyeglasses, .icon-envelope-open, .icon-envelope-letter, .icon-bell, .icon-badge, .icon-anchor, .icon-wallet, .icon-vector, .icon-speech, .icon-puzzle, .icon-printer, .icon-present, .icon-playlist, .icon-pin, .icon-picture, .icon-map, .icon-layers, .icon-handbag, .icon-globe-alt, .icon-globe, .icon-frame, .icon-folder-alt, .icon-film, .icon-feed, .icon-earphones-alt, .icon-earphones, .icon-drop, .icon-drawer, .icon-docs, .icon-directions, .icon-direction, .icon-diamond, .icon-cup, .icon-compass, .icon-call-out, .icon-call-in, .icon-call-end, .icon-calculator, .icon-bubbles, .icon-briefcase, .icon-book-open, .icon-basket-loaded, .icon-basket, .icon-bag, .icon-action-undo, .icon-action-redo, .icon-wrench, .icon-umbrella, .icon-trash, .icon-tag, .icon-support, .icon-size-fullscreen, .icon-size-actual, .icon-shuffle, .icon-share-alt, .icon-share, .icon-rocket, .icon-question, .icon-pie-chart, .icon-pencil, .icon-note, .icon-music-tone-alt, .icon-music-tone, .icon-microphone, .icon-loop, .icon-logout, .icon-login, .icon-list, .icon-like, .icon-home, .icon-grid, .icon-graph, .icon-equalizer, .icon-dislike, .icon-cursor, .icon-control-start, .icon-control-rewind, .icon-control-play, .icon-control-pause, .icon-control-forward, .icon-control-end, .icon-calendar, .icon-bulb, .icon-bar-chart, .icon-arrow-up, .icon-arrow-right, .icon-arrow-left, .icon-arrow-down, .icon-ban, .icon-bubble, .icon-camcorder, .icon-camera, .icon-check, .icon-clock, .icon-close, .icon-cloud-download, .icon-cloud-upload, .icon-doc, .icon-envelope, .icon-eye, .icon-flag, .icon-folder, .icon-heart, .icon-info, .icon-key, .icon-link, .icon-lock, .icon-lock-open, .icon-magnifier, .icon-magnifier-add, .icon-magnifier-remove, .icon-paper-clip, .icon-paper-plane, .icon-plus, .icon-pointer, .icon-power, .icon-refresh, .icon-reload, .icon-settings, .icon-star, .icon-symbol-female, .icon-symbol-male, .icon-target, .icon-volume-1, .icon-volume-2, .icon-volume-off, .icon-users {
+	font-family: 'Simple-Line-Icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	color: #c5c5c5;
+	font-size: 32px;
+	-webkit-transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	-o-transition:all 0.2s linear;
+	-ms-transition:all 0.2s linear;
+	transition:all 0.2s linear;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-user-female:hover, .icon-user-follow:hover, .icon-user-following:hover, .icon-user-unfollow:hover, .icon-trophy:hover, .icon-screen-smartphone:hover, .icon-screen-desktop:hover, .icon-plane:hover, .icon-notebook:hover, .icon-moustache:hover, .icon-mouse:hover, .icon-magnet:hover, .icon-energy:hover, .icon-emoticon-smile:hover, .icon-disc:hover, .icon-cursor-move:hover, .icon-crop:hover, .icon-credit-card:hover, .icon-chemistry:hover, .icon-user:hover, .icon-speedometer:hover, .icon-social-youtube:hover, .icon-social-twitter:hover, .icon-social-tumblr:hover, .icon-social-facebook:hover, .icon-social-dropbox:hover, .icon-social-dribbble:hover, .icon-shield:hover, .icon-screen-tablet:hover, .icon-magic-wand:hover, .icon-hourglass:hover, .icon-graduation:hover, .icon-ghost:hover, .icon-game-controller:hover, .icon-fire:hover, .icon-eyeglasses:hover, .icon-envelope-open:hover, .icon-envelope-letter:hover, .icon-bell:hover, .icon-badge:hover, .icon-anchor:hover, .icon-wallet:hover, .icon-vector:hover, .icon-speech:hover, .icon-puzzle:hover, .icon-printer:hover, .icon-present:hover, .icon-playlist:hover, .icon-pin:hover, .icon-picture:hover, .icon-map:hover, .icon-layers:hover, .icon-handbag:hover, .icon-globe-alt:hover, .icon-globe:hover, .icon-frame:hover, .icon-folder-alt:hover, .icon-film:hover, .icon-feed:hover, .icon-earphones-alt:hover, .icon-earphones:hover, .icon-drop:hover, .icon-drawer:hover, .icon-docs:hover, .icon-directions:hover, .icon-direction:hover, .icon-diamond:hover, .icon-cup:hover, .icon-compass:hover, .icon-call-out:hover, .icon-call-in:hover, .icon-call-end:hover, .icon-calculator:hover, .icon-bubbles:hover, .icon-briefcase:hover, .icon-book-open:hover, .icon-basket-loaded:hover, .icon-basket:hover, .icon-bag:hover, .icon-action-undo:hover, .icon-action-redo:hover, .icon-wrench:hover, .icon-umbrella:hover, .icon-trash:hover, .icon-tag:hover, .icon-support:hover, .icon-size-fullscreen:hover, .icon-size-actual:hover, .icon-shuffle:hover, .icon-share-alt:hover, .icon-share:hover, .icon-rocket:hover, .icon-question:hover, .icon-pie-chart:hover, .icon-pencil:hover, .icon-note:hover, .icon-music-tone-alt:hover, .icon-music-tone:hover, .icon-microphone:hover, .icon-loop:hover, .icon-logout:hover, .icon-login:hover, .icon-list:hover, .icon-like:hover, .icon-home:hover, .icon-grid:hover, .icon-graph:hover, .icon-equalizer:hover, .icon-dislike:hover, .icon-cursor:hover, .icon-control-start:hover, .icon-control-rewind:hover, .icon-control-play:hover, .icon-control-pause:hover, .icon-control-forward:hover, .icon-control-end:hover, .icon-calendar:hover, .icon-bulb:hover, .icon-bar-chart:hover, .icon-arrow-up:hover, .icon-arrow-right:hover, .icon-arrow-left:hover, .icon-arrow-down:hover, .icon-ban:hover, .icon-bubble:hover, .icon-camcorder:hover, .icon-camera:hover, .icon-check:hover, .icon-clock:hover, .icon-close:hover, .icon-cloud-download:hover, .icon-cloud-upload:hover, .icon-doc:hover, .icon-envelope:hover, .icon-eye:hover, .icon-flag:hover, .icon-folder:hover, .icon-heart:hover, .icon-info:hover, .icon-key:hover, .icon-link:hover, .icon-lock:hover, .icon-lock-open:hover, .icon-magnifier:hover, .icon-magnifier-add:hover, .icon-magnifier-remove:hover, .icon-paper-clip:hover, .icon-paper-plane:hover, .icon-plus:hover, .icon-pointer:hover, .icon-power:hover, .icon-refresh:hover, .icon-reload:hover, .icon-settings:hover, .icon-star:hover, .icon-symbol-female:hover, .icon-symbol-male:hover, .icon-target:hover, .icon-volume-1:hover, .icon-volume-2:hover, .icon-volume-off:hover, .icon-users:hover {
+	color: #3498db;
+}
+.icon-user-female:before {
+	content: "\e000";
+}
+.icon-user-follow:before {
+	content: "\e002";
+}
+.icon-user-following:before {
+	content: "\e003";
+}
+.icon-user-unfollow:before {
+	content: "\e004";
+}
+.icon-trophy:before {
+	content: "\e006";
+}
+.icon-screen-smartphone:before {
+	content: "\e010";
+}
+.icon-screen-desktop:before {
+	content: "\e011";
+}
+.icon-plane:before {
+	content: "\e012";
+}
+.icon-notebook:before {
+	content: "\e013";
+}
+.icon-moustache:before {
+	content: "\e014";
+}
+.icon-mouse:before {
+	content: "\e015";
+}
+.icon-magnet:before {
+	content: "\e016";
+}
+.icon-energy:before {
+	content: "\e020";
+}
+.icon-emoticon-smile:before {
+	content: "\e021";
+}
+.icon-disc:before {
+	content: "\e022";
+}
+.icon-cursor-move:before {
+	content: "\e023";
+}
+.icon-crop:before {
+	content: "\e024";
+}
+.icon-credit-card:before {
+	content: "\e025";
+}
+.icon-chemistry:before {
+	content: "\e026";
+}
+.icon-user:before {
+	content: "\e005";
+}
+.icon-speedometer:before {
+	content: "\e007";
+}
+.icon-social-youtube:before {
+	content: "\e008";
+}
+.icon-social-twitter:before {
+	content: "\e009";
+}
+.icon-social-tumblr:before {
+	content: "\e00a";
+}
+.icon-social-facebook:before {
+	content: "\e00b";
+}
+.icon-social-dropbox:before {
+	content: "\e00c";
+}
+.icon-social-dribbble:before {
+	content: "\e00d";
+}
+.icon-shield:before {
+	content: "\e00e";
+}
+.icon-screen-tablet:before {
+	content: "\e00f";
+}
+.icon-magic-wand:before {
+	content: "\e017";
+}
+.icon-hourglass:before {
+	content: "\e018";
+}
+.icon-graduation:before {
+	content: "\e019";
+}
+.icon-ghost:before {
+	content: "\e01a";
+}
+.icon-game-controller:before {
+	content: "\e01b";
+}
+.icon-fire:before {
+	content: "\e01c";
+}
+.icon-eyeglasses:before {
+	content: "\e01d";
+}
+.icon-envelope-open:before {
+	content: "\e01e";
+}
+.icon-envelope-letter:before {
+	content: "\e01f";
+}
+.icon-bell:before {
+	content: "\e027";
+}
+.icon-badge:before {
+	content: "\e028";
+}
+.icon-anchor:before {
+	content: "\e029";
+}
+.icon-wallet:before {
+	content: "\e02a";
+}
+.icon-vector:before {
+	content: "\e02b";
+}
+.icon-speech:before {
+	content: "\e02c";
+}
+.icon-puzzle:before {
+	content: "\e02d";
+}
+.icon-printer:before {
+	content: "\e02e";
+}
+.icon-present:before {
+	content: "\e02f";
+}
+.icon-playlist:before {
+	content: "\e030";
+}
+.icon-pin:before {
+	content: "\e031";
+}
+.icon-picture:before {
+	content: "\e032";
+}
+.icon-map:before {
+	content: "\e033";
+}
+.icon-layers:before {
+	content: "\e034";
+}
+.icon-handbag:before {
+	content: "\e035";
+}
+.icon-globe-alt:before {
+	content: "\e036";
+}
+.icon-globe:before {
+	content: "\e037";
+}
+.icon-frame:before {
+	content: "\e038";
+}
+.icon-folder-alt:before {
+	content: "\e039";
+}
+.icon-film:before {
+	content: "\e03a";
+}
+.icon-feed:before {
+	content: "\e03b";
+}
+.icon-earphones-alt:before {
+	content: "\e03c";
+}
+.icon-earphones:before {
+	content: "\e03d";
+}
+.icon-drop:before {
+	content: "\e03e";
+}
+.icon-drawer:before {
+	content: "\e03f";
+}
+.icon-docs:before {
+	content: "\e040";
+}
+.icon-directions:before {
+	content: "\e041";
+}
+.icon-direction:before {
+	content: "\e042";
+}
+.icon-diamond:before {
+	content: "\e043";
+}
+.icon-cup:before {
+	content: "\e044";
+}
+.icon-compass:before {
+	content: "\e045";
+}
+.icon-call-out:before {
+	content: "\e046";
+}
+.icon-call-in:before {
+	content: "\e047";
+}
+.icon-call-end:before {
+	content: "\e048";
+}
+.icon-calculator:before {
+	content: "\e049";
+}
+.icon-bubbles:before {
+	content: "\e04a";
+}
+.icon-briefcase:before {
+	content: "\e04b";
+}
+.icon-book-open:before {
+	content: "\e04c";
+}
+.icon-basket-loaded:before {
+	content: "\e04d";
+}
+.icon-basket:before {
+	content: "\e04e";
+}
+.icon-bag:before {
+	content: "\e04f";
+}
+.icon-action-undo:before {
+	content: "\e050";
+}
+.icon-action-redo:before {
+	content: "\e051";
+}
+.icon-wrench:before {
+	content: "\e052";
+}
+.icon-umbrella:before {
+	content: "\e053";
+}
+.icon-trash:before {
+	content: "\e054";
+}
+.icon-tag:before {
+	content: "\e055";
+}
+.icon-support:before {
+	content: "\e056";
+}
+.icon-size-fullscreen:before {
+	content: "\e057";
+}
+.icon-size-actual:before {
+	content: "\e058";
+}
+.icon-shuffle:before {
+	content: "\e059";
+}
+.icon-share-alt:before {
+	content: "\e05a";
+}
+.icon-share:before {
+	content: "\e05b";
+}
+.icon-rocket:before {
+	content: "\e05c";
+}
+.icon-question:before {
+	content: "\e05d";
+}
+.icon-pie-chart:before {
+	content: "\e05e";
+}
+.icon-pencil:before {
+	content: "\e05f";
+}
+.icon-note:before {
+	content: "\e060";
+}
+.icon-music-tone-alt:before {
+	content: "\e061";
+}
+.icon-music-tone:before {
+	content: "\e062";
+}
+.icon-microphone:before {
+	content: "\e063";
+}
+.icon-loop:before {
+	content: "\e064";
+}
+.icon-logout:before {
+	content: "\e065";
+}
+.icon-login:before {
+	content: "\e066";
+}
+.icon-list:before {
+	content: "\e067";
+}
+.icon-like:before {
+	content: "\e068";
+}
+.icon-home:before {
+	content: "\e069";
+}
+.icon-grid:before {
+	content: "\e06a";
+}
+.icon-graph:before {
+	content: "\e06b";
+}
+.icon-equalizer:before {
+	content: "\e06c";
+}
+.icon-dislike:before {
+	content: "\e06d";
+}
+.icon-cursor:before {
+	content: "\e06e";
+}
+.icon-control-start:before {
+	content: "\e06f";
+}
+.icon-control-rewind:before {
+	content: "\e070";
+}
+.icon-control-play:before {
+	content: "\e071";
+}
+.icon-control-pause:before {
+	content: "\e072";
+}
+.icon-control-forward:before {
+	content: "\e073";
+}
+.icon-control-end:before {
+	content: "\e074";
+}
+.icon-calendar:before {
+	content: "\e075";
+}
+.icon-bulb:before {
+	content: "\e076";
+}
+.icon-bar-chart:before {
+	content: "\e077";
+}
+.icon-arrow-up:before {
+	content: "\e078";
+}
+.icon-arrow-right:before {
+	content: "\e079";
+}
+.icon-arrow-left:before {
+	content: "\e07a";
+}
+.icon-arrow-down:before {
+	content: "\e07b";
+}
+.icon-ban:before {
+	content: "\e07c";
+}
+.icon-bubble:before {
+	content: "\e07d";
+}
+.icon-camcorder:before {
+	content: "\e07e";
+}
+.icon-camera:before {
+	content: "\e07f";
+}
+.icon-check:before {
+	content: "\e080";
+}
+.icon-clock:before {
+	content: "\e081";
+}
+.icon-close:before {
+	content: "\e082";
+}
+.icon-cloud-download:before {
+	content: "\e083";
+}
+.icon-cloud-upload:before {
+	content: "\e084";
+}
+.icon-doc:before {
+	content: "\e085";
+}
+.icon-envelope:before {
+	content: "\e086";
+}
+.icon-eye:before {
+	content: "\e087";
+}
+.icon-flag:before {
+	content: "\e088";
+}
+.icon-folder:before {
+	content: "\e089";
+}
+.icon-heart:before {
+	content: "\e08a";
+}
+.icon-info:before {
+	content: "\e08b";
+}
+.icon-key:before {
+	content: "\e08c";
+}
+.icon-link:before {
+	content: "\e08d";
+}
+.icon-lock:before {
+	content: "\e08e";
+}
+.icon-lock-open:before {
+	content: "\e08f";
+}
+.icon-magnifier:before {
+	content: "\e090";
+}
+.icon-magnifier-add:before {
+	content: "\e091";
+}
+.icon-magnifier-remove:before {
+	content: "\e092";
+}
+.icon-paper-clip:before {
+	content: "\e093";
+}
+.icon-paper-plane:before {
+	content: "\e094";
+}
+.icon-plus:before {
+	content: "\e095";
+}
+.icon-pointer:before {
+	content: "\e096";
+}
+.icon-power:before {
+	content: "\e097";
+}
+.icon-refresh:before {
+	content: "\e098";
+}
+.icon-reload:before {
+	content: "\e099";
+}
+.icon-settings:before {
+	content: "\e09a";
+}
+.icon-star:before {
+	content: "\e09b";
+}
+.icon-symbol-female:before {
+	content: "\e09c";
+}
+.icon-symbol-male:before {
+	content: "\e09d";
+}
+.icon-target:before {
+	content: "\e09e";
+}
+.icon-volume-1:before {
+	content: "\e09f";
+}
+.icon-volume-2:before {
+	content: "\e0a0";
+}
+.icon-volume-off:before {
+	content: "\e0a1";
+}
+.icon-users:before {
+	content: "\e001";
+}
+
+
+
+/*========================================
+=            Entypo css icons            =
+========================================*/
+
+
+.phone.icon:before{content:"\0021"}
+.smartphone.icon:before{content:"\0022"}
+.mouse.icon:before{content:"\0023"}
+.roadsign.icon:before{content:"\0024"}
+.mail.icon:before{content:"\0025"}
+.write.icon:before{content:"\0026"}
+.attachment.icon:before{content:"\0027"}
+.back.icon:before{content:"\0028"}
+.doubleback.icon:before{content:"\0029"}
+.forward.icon:before{content:"\002A"}
+.user.icon:before{content:"\002B"}
+.usergroup.icon:before{content:"\002C"}
+.adduser.icon:before{content:"\002D"}
+.profie.icon:before{content:"\002E"}
+.newwindow.icon:before{content:"\002F"}
+.mappin.icon:before{content:"\0030"}
+.map.icon:before{content:"\0031"}
+.compass.icon:before{content:"\0032"}
+.compasshand.icon:before{content:"\0033"}
+.crosshair.icon:before{content:"\0034"}
+.link.icon:before{content:"\0035"}
+.heart.icon:before{content:"\0036"}
+.star.icon:before{content:"\0037"}
+.thumbsup.icon:before{content:"\0038"}
+.conversation.icon:before{content:"\0039"}
+.comment.icon:before{content:"\003A"}
+.rightquote.icon:before{content:"\003B"}
+.printer.icon:before{content:"\003C"}
+.bell.icon:before{content:"\003D"}
+.brokenlink.icon:before{content:"\003E"}
+.flag.icon:before{content:"\003F"}
+.gear.icon:before{content:"\0040"}
+.flashlight.icon:before{content:"\0041"}
+.trophy.icon:before{content:"\0042"}
+.tag.icon:before{content:"\0043"}
+.camera.icon:before{content:"\0044"}
+.moon.icon:before{content:"\0045"}
+.palette.icon:before{content:"\0046"}
+.envato.icon:before{content:"\0047"}
+.musicnote.icon:before{content:"\0048"}
+.bag.icon:before{content:"\0049"}
+.airplane.icon:before{content:"\004A"}
+.lifesaver.icon:before{content:"\004B"}
+.rings.icon:before{content:"\004C"}
+.eye.icon:before{content:"\004D"}
+.clock.icon:before{content:"\004E"}
+.microphone.icon:before{content:"\004F"}
+.calender.icon:before{content:"\0050"}
+.bolt.icon:before{content:"\0051"}
+.hourglass.icon:before{content:"\0052"}
+.rss.icon:before{content:"\0053"}
+.signal.icon:before{content:"\0054"}
+.lock.icon:before{content:"\0055"}
+.unlock.icon:before{content:"\0056"}
+.checkmark.icon:before{content:"\0057"}
+.xmark.icon:before{content:"\0058"}
+.minuscircle.icon:before{content:"\0059"}
+.pluscircle.icon:before{content:"\005A"}
+.xmarkcircle.icon:before{content:"\005B"}
+.minus.icon:before{content:"\005C"}
+.plus.icon:before{content:"\005D"}
+.cancel.icon:before{content:"\005E"}
+.info.icon:before{content:"\005F"}
+.infocircle.icon:before{content:"\0060"}
+.questionmark.icon:before{content:"\0061"}
+.questioncircle.icon:before{content:"\0062"}
+.caution.icon:before{content:"\0063"}
+.clockwise.icon:before{content:"\0064"}
+.counterclockwise.icon:before{content:"\0065"}
+.crosspaths.icon:before{content:"\0066"}
+.backarrow.icon:before{content:"\0067"}
+.looparrow.icon:before{content:"\0068"}
+.list.icon:before{content:"\0069"}
+.listadd.icon:before{content:"\006A"}
+.window.icon:before{content:"\006B"}
+.document.icon:before{content:"\006C"}
+.portrait.icon:before{content:"\006D"}
+.copydocument.icon:before{content:"\006E"}
+.landscape.icon:before{content:"\006F"}
+.photos.icon:before{content:"\0070"}
+.video.icon:before{content:"\0071"}
+.music.icon:before{content:"\0072"}
+.folder.icon:before{content:"\0073"}
+.cabinet.icon:before{content:"\0074"}
+.trash.icon:before{content:"\0075"}
+.upload.icon:before{content:"\0076"}
+.download.icon:before{content:"\0077"}
+.hdd.icon:before{content:"\0078"}
+.cloud.icon:before{content:"\0079"}
+.cloudupload.icon:before{content:"\007A"}
+.play.icon:before{content:"\007B"}
+.pause.icon:before{content:"\007C"}
+.record.icon:before{content:"\007D"}
+.stop.icon:before{content:"\007E"}
+.creativecommons.icon:before{content:"\00A9"}
+.widewindow.icon:before{content:"\00AE"}
+.nexttrack.icon:before{content:"\00C4"}
+.previoustrack.icon:before{content:"\00C5"}
+.beginningtrack.icon:before{content:"\00C7"}
+.endtrack.icon:before{content:"\00C9"}
+.zoomout.icon:before{content:"\00D1"}
+.zoomin.icon:before{content:"\00D6"}
+.volume.icon:before{content:"\00DC"}
+.volumeoff.icon:before{content:"\00E0"}
+.volumeon.icon:before{content:"\00E1"}
+.leftarrow.icon:before{content:"\00E2"}
+.uparrow.icon:before{content:"\00E3"}
+.downarrow.icon:before{content:"\00E4"}
+.rightarrow.icon:before{content:"\00E5"}
+.leftarrowsmall.icon:before{content:"\00E7"}
+.uparrowsmall.icon:before{content:"\00E8"}
+.downarrowsmall.icon:before{content:"\00E9"}
+.rightarrowsmall.icon:before{content:"\00EA"}
+.leftarrowcircle.icon:before{content:"\00EB"}
+.uparrowcircle.icon:before{content:"\00EC"}
+.downarrowcircle.icon:before{content:"\00ED"}
+.rightarrowcircle.icon:before{content:"\00EE"}
+.home.icon:before{content:"\00EF"}
+.bookmark.icon:before{content:"\00F1"}
+.maximize.icon:before{content:"\00F2"}
+.opendocument.icon:before{content:"\00F3"}
+.search.icon:before{content:"\00F4"}
+.ellipsis.icon:before{content:"\00F6"}
+
+
+/*-----  End of Entypo css icons  ------*/

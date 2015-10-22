@@ -1,0 +1,7 @@
+.header nav.menu > ul > li ul {
+  display: none;
+}
+
+.header nav.menu > ul > li:hover ul {
+  display: block;
+}

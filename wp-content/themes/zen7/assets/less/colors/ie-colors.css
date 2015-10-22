@@ -1,0 +1,9 @@
+.panel-primary .panel-title > a {
+  background: #2ecc71;
+}
+.btn-blue-arrow-hover:hover , .btn-blue-heart:hover , .btn-blue-share:hover {
+  background: #2ecc71;
+}
+.options-panel , .products > li .figure-product .product-buttons , .portfolio-items li .hover-item , .simple-tipsy , .simple-tipsy.social-tipsy .post-social .social-item , .settings-panel , .slider-color-bg.blue , .posts-list > ul > li .image-container .post-link-bg , .bg-404 .error-404-big , .source-page-blue , .team-member-single-hover figure figcaption {
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#12ecc71,endColorstr=#12ecc71); 
+}
