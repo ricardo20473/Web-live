@@ -1954,6 +1954,7 @@ ul.wpb-content-layouts-container,
   .wpb_bootstrap_modals .wpb-elements-list-modal.modal {
     width: 1120px;
     margin-left: -560px;
+    z-index: 9999999;
   }
 }
 @media (min-width: 1020px) and (max-width: 1160px) {

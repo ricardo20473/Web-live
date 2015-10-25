@@ -75,7 +75,7 @@ class Zen_Contact_Form extends WP_Widget {
             ? ($args['before_title'] . $title . $args['after_title'])
             : (
                 $args['before_title'] .
-                    __('Contact Us', 'zen7') .
+                    __('Contáctenos', 'zen7') .
                     $args['after_title']);
 
         echo $title;
@@ -177,11 +177,11 @@ class Zen_Contact_Form extends WP_Widget {
                 </div>
             <?php } ?>
             <form action="#" method="post" class="contact-widget">
-                <input class="form-control" id="contact_name_widget" name="contact_name_widget" type="text" value="<?php if (isset($_POST['contact_name_widget'])) echo $_POST['contact_name_widget']; ?>" aria-required="true" placeholder="<?php _e('Your full name *','zen7'); ?>">
+                <input class="form-control" id="contact_name_widget" name="contact_name_widget" type="text" value="<?php if (isset($_POST['contact_name_widget'])) echo $_POST['contact_name_widget']; ?>" aria-required="true" placeholder="<?php _e('Nombre completo *','zen7'); ?>">
                 <input class="form-control" id="contact_email_widget" name="contact_email_widget" type="text" value="<?php if (isset($_POST['contact_email_widget'])) echo $_POST['contact_email_widget']; ?>" aria-required="true" placeholder="<?php _e('E-mail *','zen7'); ?>">
-                <textarea class="form-control" rows="4" name="contact_message_widget" id="contact_message_widget" placeholder="<?php _e('Write your message here *','zen7'); ?>"><?php if (isset($_POST['contact_message_widget'])) echo stripslashes($_POST['contact_message_widget']); ?></textarea>
+                <textarea class="form-control" rows="4" name="contact_message_widget" id="contact_message_widget" placeholder="<?php _e('Escribe tu mensaje aquí *','zen7'); ?>"><?php if (isset($_POST['contact_message_widget'])) echo stripslashes($_POST['contact_message_widget']); ?></textarea>
                 <input type="hidden" id="contact_submit_widget" name="contact_submit_widget" value="true" />
-                <input name="submit_widget" class="btn btn-default btn-sm" type="submit" id="submit_widget" value="<?php _e('Send','zen7'); ?>">
+                <input name="submit_widget" class="btn btn-default btn-sm" type="submit" id="submit_widget" value="<?php _e('Enviar','zen7'); ?>">
             </form>
         </div>
 
