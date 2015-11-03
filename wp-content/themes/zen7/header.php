@@ -168,7 +168,7 @@ if (isset($zen7_data['zen_bg_image']['url']) && $zen7_data['zen_bg_image']['url'
                                 <?php if($zen7_data['zen_header_search']) : ?>
                                 <form action="<?php echo home_url( '/' ); ?>" method="get" class="search-header">
 
-                                    <input name="s" id="s" type="text" class="form-control" placeholder="<?php _e('Search...','zen7'); ?>" value="">
+                                    <input name="s" id="s" type="text" class="form-control" placeholder="<?php _e('Buscar...','zen7'); ?>" value="">
 
                                     <?php if ( defined('ICL_LANGUAGE_CODE') ) : ?>
                                         <input type="hidden" name="lang" value="<?php echo(ICL_LANGUAGE_CODE); ?>" />
@@ -179,7 +179,7 @@ if (isset($zen7_data['zen_bg_image']['url']) && $zen7_data['zen_bg_image']['url'
                             <?php else: ?>
                                 <form action="<?php echo home_url( '/' ); ?>" method="get" class="search-header">
 
-                                    <input name="s" id="s" type="text" class="form-control" placeholder="<?php _e('Search...','zen7'); ?>" value="">
+                                    <input name="s" id="s" type="text" class="form-control" placeholder="<?php _e('Buscar...','zen7'); ?>" value="">
 
                                     <?php if ( defined('ICL_LANGUAGE_CODE') ) : ?>
                                         <input type="hidden" name="lang" value="<?php echo(ICL_LANGUAGE_CODE); ?>" />
@@ -249,7 +249,7 @@ if (isset($zen7_data['zen_bg_image']['url']) && $zen7_data['zen_bg_image']['url'
                                 <?php if($zen7_data['zen_header_search']) : ?>
                                     <form action="<?php echo home_url( '/' ); ?>" method="get" class="search-header">
 
-                                        <input name="s" id="s" type="text" class="form-control" placeholder="<?php _e('Search...','zen7'); ?>" value="">
+                                        <input name="s" id="s" type="text" class="form-control" placeholder="<?php _e('Buscar...','zen7'); ?>" value="">
 
                                         <?php if ( defined('ICL_LANGUAGE_CODE') ) : ?>
                                             <input type="hidden" name="lang" value="<?php echo(ICL_LANGUAGE_CODE); ?>" />
@@ -260,7 +260,7 @@ if (isset($zen7_data['zen_bg_image']['url']) && $zen7_data['zen_bg_image']['url'
                             <?php else: ?>
                                 <form action="<?php echo home_url( '/' ); ?>" method="get" class="search-header">
 
-                                    <input name="s" id="s" type="text" class="form-control" placeholder="<?php _e('Search...','zen7'); ?>" value="">
+                                    <input name="s" id="s" type="text" class="form-control" placeholder="<?php _e('Buscar...','zen7'); ?>" value="">
 
                                     <?php if ( defined('ICL_LANGUAGE_CODE') ) : ?>
                                         <input type="hidden" name="lang" value="<?php echo(ICL_LANGUAGE_CODE); ?>" />
@@ -324,7 +324,7 @@ if (isset($zen7_data['zen_bg_image']['url']) && $zen7_data['zen_bg_image']['url'
                                     <?php if($zen7_data['zen_header_search']) : ?>
                                         <form action="<?php echo home_url( '/' ); ?>" method="get" class="search-header">
 
-                                            <input name="s" id="s" type="text" class="form-control" placeholder="<?php _e('Search...','zen7'); ?>" value="">
+                                            <input name="s" id="s" type="text" class="form-control" placeholder="<?php _e('Buscar...','zen7'); ?>" value="">
 
                                             <?php if ( defined('ICL_LANGUAGE_CODE') ) : ?>
                                                 <input type="hidden" name="lang" value="<?php echo(ICL_LANGUAGE_CODE); ?>" />
@@ -335,7 +335,7 @@ if (isset($zen7_data['zen_bg_image']['url']) && $zen7_data['zen_bg_image']['url'
                                 <?php else: ?>
                                     <form action="<?php echo home_url( '/' ); ?>" method="get" class="search-header">
 
-                                        <input name="s" id="s" type="text" class="form-control" placeholder="<?php _e('Search...','zen7'); ?>" value="">
+                                        <input name="s" id="s" type="text" class="form-control" placeholder="<?php _e('Buscar...','zen7'); ?>" value="">
 
                                         <?php if ( defined('ICL_LANGUAGE_CODE') ) : ?>
                                             <input type="hidden" name="lang" value="<?php echo(ICL_LANGUAGE_CODE); ?>" />

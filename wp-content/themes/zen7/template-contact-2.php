@@ -138,10 +138,10 @@ get_header(); ?>
                 <!-- End Single Content -->
                 <div class="comment-respond">
                     <form action="<?php the_permalink(); ?>" method="post" class="comment-form">
-                        <textarea name="contact_message" id="contact_message" placeholder="<?php _e('Write your message here *','zen7'); ?>"><?php if (isset($_POST['contact_message'])) echo stripslashes($_POST['contact_message']); ?></textarea>
+                        <textarea name="contact_message" id="contact_message" placeholder="<?php _e('Escriba su mensaje aquí *','zen7'); ?>"><?php if (isset($_POST['contact_message'])) echo stripslashes($_POST['contact_message']); ?></textarea>
                         <ul class="comment-form-inputs">
                             <li>
-                                <input id="contact_name" name="contact_name" type="text" value="<?php if (isset($_POST['contact_name'])) echo $_POST['contact_name']; ?>" aria-required="true" placeholder="<?php _e('Your full name *','zen7'); ?>">
+                                <input id="contact_name" name="contact_name" type="text" value="<?php if (isset($_POST['contact_name'])) echo $_POST['contact_name']; ?>" aria-required="true" placeholder="<?php _e('Su nombre completo *','zen7'); ?>">
                             </li>
                             <li>
                                 <input id="contact_email" name="contact_email" type="text" value="<?php if (isset($_POST['contact_email'])) echo $_POST['contact_email']; ?>" aria-required="true" placeholder="<?php _e('E-mail *','zen7'); ?>">
@@ -153,7 +153,7 @@ get_header(); ?>
                         <div class="clear"></div>
                         <p class="form-submit">
                             <input type="hidden" id="contact_submit" name="contact_submit" value="true" />
-                            <input name="submit" type="submit" id="submit" value="<?php _e('Send','zen7'); ?>">
+                            <input name="submit" type="submit" id="submit" value="<?php _e('Enviar','zen7'); ?>">
                         </p>
                     </form>
                 </div>
